@@ -1,22 +1,58 @@
 [
     {
         "ParameterKey": "AccessCIDR",
-        "ParameterValue": "0.0.0.0/0"
+        "ParameterValue": "34.218.253.240/32"
     },
     {
-        "ParameterKey": "AvailabilityZones",
-        "ParameterValue": "$[alfred_genaz_3]"
+        "ParameterKey": "BastionSecurityGroupID",
+        "ParameterValue": "sg-c0c230b3"
     },
     {
-        "ParameterKey": "KeyPairName",
-        "ParameterValue": "tonynv"
+        "ParameterKey": "ConsulEc2RetryTagKey",
+        "ParameterValue": "vault-service-POD"
+    },
+    {
+        "ParameterKey": "ConsulEc2RetryTagValue",
+        "ParameterValue": "vault-service-DCOSDEVQA"
+    },
+    {
+        "ParameterKey": "EmailAddress",
+        "ParameterValue": "rohan.shirke@verizon.com"
+    },
+    {
+        "ParameterKey": "KeyPair",
+        "ParameterValue": "Rohan_Shirke_Key"
+    },
+    {
+        "ParameterKey": "PrivateSubnet1ID",
+        "ParameterValue": "subnet-13a08649"
+    },
+    {
+        "ParameterKey": "PrivateSubnet2ID",
+        "ParameterValue": "subnet-2575225c"
     },
     {
         "ParameterKey": "QSS3BucketName",
-        "ParameterValue": "$[taskcat_autobucket]"
+        "ParameterValue": "vault-service-vz"
     },
     {
         "ParameterKey": "QSS3KeyPrefix",
-        "ParameterValue": "quickstart-hashicorp-vault/"
+        "ParameterValue": "quickstart-hashicorp-vault"
+    },
+    {
+        "ParameterKey": "VPCCIDR",
+        "ParameterValue": "40.0.0.0/16"
+    },
+    {
+        "ParameterKey": "VPCID",
+        "ParameterValue": "vpc-9a8c82e3"
+    },
+    {
+        "ParameterKey": "VaultDownloadURL",
+        "ParameterValue": "https://releases.hashicorp.com/vault/0.10.4/vault_0.10.4_linux_amd64.zip"
+    },
+    {
+        "ParameterKey": "VaultInstanceType",
+        "ParameterValue": "t2.medium"
     }
 ]
